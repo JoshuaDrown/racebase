@@ -1,0 +1,46 @@
+initial idea: make a database for local mountain bike race results.
+	use mysql?
+	
+
+tables:
+	racers
+		firstname
+		lastname
+		agegroup
+		category
+
+	venues
+		lat
+		lon
+		laplength
+		altitude
+		elevation gain
+		difficulty rating
+
+	race
+		venue
+		date
+		category
+		distance
+		name
+
+	results
+		firstname
+		lastname
+		agegroup
+		category
+		race
+		position
+		time
+
+	weather (would like to be able to analyze results against the weather)
+		date
+		temp
+		humidity
+		winddirection
+		precip
+		%cloudcover
+		lat
+		lon
+
+
